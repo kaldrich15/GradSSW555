@@ -1,0 +1,204 @@
+0 HEAD
+0 NOTE Git Repo: https://github.com/hoffmannmatheus/GradSSW555
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE My Family
+1 DATE 13 SEP 2015
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Matheus Silva
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Arthur /Dent/
+2 GIVN Arthur
+2 SURN Dent
+2 _MARNM Dent
+1 SEX M
+1 BIRT
+2 DATE 6 FEB 1945
+1 DEAT Y
+2 DATE 9 JUN 2000
+1 NOTE Bio notes: Arthur has married Tricia McMillian, who died before they had a sun. Later, Arthur maried Trillian Dent, with whom he had the son Marvin Dent.
+1 FAMS @F1@
+1 FAMS @F2@
+0 @I2@ INDI
+1 NAME Trillian /Grundel/
+2 GIVN Trillian
+2 SURN Grundel
+2 _MARNM Dent
+1 SEX F
+1 BIRT
+2 DATE 16 JUN 1948
+1 DEAT Y
+2 DATE 9 JUL 2004
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Marvin /Dent/
+2 GIVN Marvin
+2 SURN Dent
+2 _MARNM Dent
+1 SEX M
+1 BIRT
+2 DATE 14 NOV 1967
+1 NOTE Bio notes: Marvin is married with Random Dent. He had a child (Douglas Adams) out of his marriage with Lucy Adams.
+1 FAMS @F3@
+1 FAMS @F4@
+1 FAMC @F1@
+0 @I4@ INDI
+1 NAME Random /Perfect/
+2 GIVN Random
+2 SURN Perfect
+2 _MARNM Dent
+1 SEX F
+1 BIRT
+2 DATE 8 AUG 1965
+1 FAMS @F4@
+1 FAMC @F5@
+0 @I5@ INDI
+1 NAME Ford /Perfect/
+2 GIVN Ford
+2 SURN Perfect
+2 _MARNM Perfect
+1 SEX M
+1 BIRT
+2 DATE 23 NOV 1941
+1 FAMS @F5@
+0 @I6@ INDI
+1 NAME Fanny /Fitcher/
+2 GIVN Fanny
+2 SURN Fitcher
+2 _MARNM Perfect
+1 SEX F
+1 BIRT
+2 DATE 29 MAY 1941
+1 FAMS @F5@
+0 @I7@ INDI
+1 NAME Junior /Dent/
+2 GIVN Junior
+2 SURN Dent
+2 _MARNM Dent
+1 SEX M
+1 BIRT
+2 DATE 11 AUG 1984
+1 FAMC @F4@
+0 @I8@ INDI
+1 NAME Lucy /Adams/
+2 GIVN Lucy
+2 SURN Adams
+2 _MARNM Adams
+1 SEX F
+1 BIRT
+2 DATE 29 JUN 1975
+1 FAMS @F3@
+1 FAMC @F6@
+0 @I9@ INDI
+1 NAME John /Adams/
+2 GIVN John
+2 SURN Adams
+2 _MARNM Adam
+1 SEX M
+1 BIRT
+2 DATE 2 OCT 1952
+1 FAMS @F6@
+0 @I10@ INDI
+1 NAME Kaley /Jefferson/
+2 GIVN Kaley
+2 SURN Jefferson
+2 _MARNM Adams
+1 SEX F
+1 BIRT
+2 DATE 8 MAR 1969
+1 FAMS @F6@
+0 @I11@ INDI
+1 NAME Douglas /Adams/
+2 GIVN Douglas
+2 SURN Adams
+2 _MARNM Adams
+1 SEX M
+1 BIRT
+2 DATE 12 SEP 1991
+1 NOTE Bio notes: Douglas is half brother of Christine and Arthur Dent.
+1 FAMC @F3@
+0 @I12@ INDI
+1 NAME Christine /Dent/
+2 GIVN Christine
+2 SURN Dent
+2 _MARNM Dent
+1 SEX F
+1 BIRT
+2 DATE 1 APR 1990
+1 FAMC @F4@
+0 @I13@ INDI
+1 NAME Tricia /McMillian/
+2 GIVN Tricia
+2 SURN McMillian
+2 _MARNM McMillian
+1 SEX F
+1 BIRT
+2 DATE 9 JUL 1940
+1 DEAT Y
+2 DATE 21 AUG 1965
+1 FAMS @F2@
+1 FAMC @F7@
+0 @I14@ INDI
+1 NAME Steve /McMillian/
+2 GIVN Steve
+2 SURN McMillian
+2 _MARNM McMillian
+1 SEX M
+1 BIRT
+2 DATE 23 JUL 1915
+1 DEAT Y
+2 DATE 5 JUN 1979
+1 FAMS @F7@
+0 @I15@ INDI
+1 NAME Vanessa /Hausen/
+2 GIVN Vanessa
+2 SURN Hausen
+2 _MARNM McMillian
+1 SEX F
+1 BIRT
+2 DATE 7 AUG 1920
+1 DEAT Y
+2 DATE 14 SEP 1978
+1 FAMS @F7@
+0 @F1@ FAM
+1 HUSB @I1@
+1 WIFE @I2@
+1 CHIL @I3@
+1 _CURRENT Y
+0 @F2@ FAM
+1 HUSB @I1@
+1 WIFE @I13@
+1 _CURRENT N
+0 @F3@ FAM
+1 HUSB @I3@
+1 WIFE @I8@
+1 CHIL @I11@
+1 _CURRENT Y
+0 @F4@ FAM
+1 HUSB @I3@
+1 WIFE @I4@
+1 CHIL @I7@
+1 CHIL @I12@
+1 _CURRENT N
+0 @F5@ FAM
+1 HUSB @I5@
+1 WIFE @I6@
+1 CHIL @I4@
+1 _CURRENT Y
+0 @F6@ FAM
+1 HUSB @I9@
+1 WIFE @I10@
+1 CHIL @I8@
+1 _CURRENT Y
+0 @F7@ FAM
+1 HUSB @I14@
+1 WIFE @I15@
+1 CHIL @I13@
+1 _CURRENT Y
+0 TRLR

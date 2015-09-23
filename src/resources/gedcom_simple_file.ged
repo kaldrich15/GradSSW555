@@ -1,0 +1,47 @@
+0 HEAD
+0 NOTE Git Repo: https://github.com/hoffmannmatheus/GradSSW555
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE Family 3
+1 DATE 18 SEP 2015
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Matheus Silva
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Matt /Silva/
+2 GIVN Matt
+2 SURN Silva
+2 _MARNM Silva
+1 SEX M
+1 BIRT
+2 DATE 12 MAY 1991
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Altair /Silva/
+2 GIVN Altair
+2 SURN Silva
+2 _MARNM Silva
+1 SEX M
+1 BIRT
+2 DATE 18 JUN 1965
+1 FAMS @F1@
+0 @I3@ INDI
+1 NAME Naldi /Hoffmann/
+2 GIVN Naldi
+2 SURN Hoffmann
+2 _MARNM Silva
+1 SEX F
+1 BIRT
+2 DATE 15 APR 1968
+1 FAMS @F1@
+0 @F1@ FAM
+1 HUSB @I2@
+1 WIFE @I3@
+1 CHIL @I1@
+1 _CURRENT Y
+0 TRLR
