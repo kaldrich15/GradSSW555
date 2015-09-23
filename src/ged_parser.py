@@ -1,7 +1,6 @@
 """
     SSW555
-    Matheus Silva
-    September 18, 2015
+    Team 4
 """
 
 import sys
